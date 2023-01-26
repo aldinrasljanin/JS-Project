@@ -1,0 +1,57 @@
+body {
+  background-color: #12181b;
+}
+
+#counter {
+  position: relative;
+  width: auto;
+  height: auto;
+  background: white;
+  border-radius: 5px;
+  width: 260px;
+  height: 100%;
+  background-color: white;
+}
+
+#count {
+  font-size: 36px;
+}
+
+h1 {
+  margin-top: 200px;
+  font-size: 70px;
+  font-style: oblique;
+}
+
+.allbtn {
+  margin-right: 20px;
+  margin-bottom: 5px;
+  width: 50px;
+  height: 30px;
+  border: none;
+  /* background-color: wheat; */
+}
+#minus {
+  margin-left: 25px;
+}
+#minus:hover {
+  background-color: red;
+  color: white;
+}
+#reset:hover {
+  background-color: black;
+  color: white;
+}
+#plus:hover {
+  background-color: green;
+  color: white;
+}
+
+#particles-js {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  height: 99.34vh;
+  width: 100%;
+}
